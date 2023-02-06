@@ -43,10 +43,10 @@ const Header = () => {
        }}
       className='flex flex-row mx-auto p-5 text-lg'>
         <Link href='#about'>
-        <h3 className='py-3 px-6 text-2md'>About Us</h3>
-        </Link>
-        <Link href=''>
         <h3 className='py-3 px-6 text-2md'>CoolRide</h3>
+        </Link>
+        <Link href='#coolride'>
+        <h3 className='py-3 px-6 text-2md'>About</h3>
         </Link>
         <Link href=''>
         <h3 className='py-3 px-6 text-2md'>Team</h3>

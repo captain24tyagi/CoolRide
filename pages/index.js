@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/Header'
 import Profile from '@/components/Profile'
 import About from '@/components/About'
+import CoolRide from '@/components/CoolRide'
 
 export default function Home() {
   return (
@@ -22,6 +23,10 @@ export default function Home() {
 
       <section id='about' className='snap-center'>
       <About />
+      </section>
+
+      <section id='coolride' className='snap-center'>
+      <CoolRide />
       </section>
       
     </div>

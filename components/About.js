@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { motion } from 'framer-motion'
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import QrCodeScannerOutlinedIcon from '@mui/icons-material/QrCodeScannerOutlined';
@@ -8,19 +9,46 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 
 const About = () => {
   return (
-    <div className='h-screen mx-auto z-20 justify-between max-w-7xl py-10 text-white lg:flex flex-row'>
+    <div className='h-screen mx-auto z-20 justify-between items-center max-w-7xl py-10 text-white lg:flex flex-row lg:mb-20'>
      
-      <div className='lg:flex flex-row max-w-fit items-center mt-5 '>
-      <Image
+      <div className='lg:flex flex-row max-w-fit items-center mt-5 pb-20'>
+      <motion.img
+        initial = {{
+          x: -500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate = {{
+          x: 0,
+          opacity: 1,
+          scale: 1
+        }}
+        transition = {{
+          duration: 1.5,
+        }}
         className='rounded-lg mx-auto mt-10 pt-10'
         src='https://www.joyebike.com/product/glob-bike/assets/img/slider.png'
         height={300}
         width={600}
       />
 
-        <div className='mx-auto w-fit px-20'>
-
-        <h2 className='text-4xl font-bold p-5 mt-10 pt-10 mx-auto text-[#32CC8B]'>How it works</h2>
+        <motion.div 
+         initial = {{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate = {{
+          x: 0,
+          opacity: 1,
+          scale: 1
+        }}
+        transition = {{
+          duration: 1.5,
+        }}
+        className='mx-auto w-fit px-20'>
+         
+         <h2 className='text-4xl font-bold p-5 mt-10 pt-10 mx-auto text-[#32CC8B]'>How it works</h2>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
           <FileDownloadIcon className='text-4xl mx-auto mr-5' />
@@ -46,7 +74,7 @@ const About = () => {
            </div>
           </div>
 
-          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
+          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-gray-100/80  hover:text-[#32CC8B]'>
           <QrCodeScannerOutlinedIcon className='text-4xl mx-auto mr-5' />
            <div>
              <h3 className='text-lg font-bold'>
@@ -70,7 +98,7 @@ const About = () => {
            </div>
           </div>
 
-          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
+          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
           <HomeOutlinedIcon className='text-4xl mx-auto mr-5'/>
            <div>
              <h3 className='text-lg font-bold'>
@@ -81,8 +109,9 @@ const About = () => {
             </p>
            </div>
           </div>
+        </motion.div>
 
-        </div>
+        
       </div>
       
         
