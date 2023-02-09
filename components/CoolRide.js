@@ -22,6 +22,7 @@ const [benefits, setBenefits] = useState([]);
         key={benefit.title}
         title={benefit.title} 
         content={benefit.content}
+        image={benefit.imageUrl}
       />
       ))}
 

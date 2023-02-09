@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-const CoolCards = ({ title, content }) => {
+const CoolCards = ({ title, content, image }) => {
 
   return (
     <article className='h-[500px] w-[300px] md:w-[200px] xl:h-[600px] xl:w-[400px] md:h-fit items-center flex-shrink-0 mt-10 pt-10 bg-gray-700/100 opacity-50 hover:opacity-80 rounded-lg'>
@@ -13,8 +13,8 @@ const CoolCards = ({ title, content }) => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity:1, y:1 }}
         viewport={{ once: true }}
-        className='h-28 w-28 rounded-full object-cover mx-auto mt-5'
-        src='https://www.joyebike.com/product/glob-bike/assets/img/slider.png'
+        className='h-28 w-28 rounded-full object-cover mx-auto mt-5 bg-white'
+        src={image}
         alt='/'
       />
 
