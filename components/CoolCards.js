@@ -19,8 +19,8 @@ const CoolCards = ({ title, content, image }) => {
       />
 
       <div className='m-10 items-center justify-between flex flex-col'>
-       <h2 className='text-3xl font-semibold py-5 px-10 text-[#32CC8B]'>{title}</h2>
-       <p className='py-5 px-10'>{content}</p>
+       <h2 className='text-xl font-semibold py-5 px-10 text-[#32CC8B]'>{title}</h2>
+       <p className='py-5 px-10 text-sm'>{content}</p>
       </div> 
        
     </article>

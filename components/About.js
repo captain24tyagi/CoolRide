@@ -48,12 +48,12 @@ const About = () => {
         }}
         className='mx-auto w-fit px-20'>
          
-         <h2 className='text-4xl font-bold p-5 mt-10 pt-10 mx-auto text-[#32CC8B]'>How it works</h2>
+         <h2 className='text-2xl font-bold p-5 mt-10 pt-10 mx-auto text-[#32CC8B]'>How it works</h2>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
-          <FileDownloadIcon className='text-4xl mx-auto mr-5' />
+          <FileDownloadIcon className='text-3xl mx-auto mr-5' />
            <div>
-             <h3 className='text-lg font-bold'>
+             <h3 className='text-md font-bold'>
                 Download CoolRide App
             </h3>
             <p className='text-sm'>
@@ -63,9 +63,9 @@ const About = () => {
           </div>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
-          <LocationOnOutlinedIcon className='text-4xl mx-auto mr-5' />
+          <LocationOnOutlinedIcon className='text-3xl mx-auto mr-5' />
            <div>
-             <h3 className='text-lg font-bold'>
+             <h3 className='text-md font-bold'>
                 Locate your CoolRide
             </h3>
             <p className='text-sm'>
@@ -74,10 +74,10 @@ const About = () => {
            </div>
           </div>
 
-          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-gray-100/80  hover:text-[#32CC8B]'>
-          <QrCodeScannerOutlinedIcon className='text-4xl mx-auto mr-5' />
+          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
+          <QrCodeScannerOutlinedIcon className='text-3xl mx-auto mr-5' />
            <div>
-             <h3 className='text-lg font-bold'>
+             <h3 className='text-md font-bold'>
                 Scan the QR Code
             </h3>
             <p className='text-sm'>
@@ -87,9 +87,9 @@ const About = () => {
           </div>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
-          <ElectricScooterOutlinedIcon className='text-4xl mx-auto mr-5' />
+          <ElectricScooterOutlinedIcon className='text-3xl mx-auto mr-5' />
            <div>
-             <h3 className='text-lg font-bold'>
+             <h3 className='text-md font-bold'>
                 Enjoy Your CoolRide
             </h3>
             <p className='text-sm'>
@@ -99,9 +99,9 @@ const About = () => {
           </div>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
-          <HomeOutlinedIcon className='text-4xl mx-auto mr-5'/>
+          <HomeOutlinedIcon className='text-3xl mx-auto mr-5'/>
            <div>
-             <h3 className='text-lg font-bold'>
+             <h3 className='text-md font-bold'>
                 End Your CoolRide
             </h3>
             <p className='text-sm'>

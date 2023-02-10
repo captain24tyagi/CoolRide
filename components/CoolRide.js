@@ -15,7 +15,7 @@ const [benefits, setBenefits] = useState([]);
 
   return (
     <div className='h-fit mx-auto z-20 mt-20 flex-col items-center justify-between max-w-7xl py-10 text-white flex md:mt-20'>
-      <h1 className='mx-auto mt-20 text-4xl font-bold'>About</h1>
+      <h1 className='mx-auto mt-20 text-2xl font-bold'>About</h1>
       <div className='flex flex-row mx-auto z-20 overflow-x-scroll space-x-5 items-center justify-between max-w-7xl py-10'>
       {benefits.map((benefit) => (
         <CoolCards 

@@ -4,6 +4,8 @@ import Header from '@/components/Header'
 import Profile from '@/components/Profile'
 import About from '@/components/About'
 import CoolRide from '@/components/CoolRide'
+import Base from '@/components/base'
+import Team from '@/components/Team'
 
 export default function Home() {
   return (
@@ -27,6 +29,14 @@ export default function Home() {
 
       <section id='coolride' className='snap-center'>
       <CoolRide />
+      </section>
+
+      <section id='programme' className='snap-center'>
+       <Base/>
+      </section>
+
+      <section id='team' className='snap-center'>
+       <Team/>
       </section>
       
     </div>
