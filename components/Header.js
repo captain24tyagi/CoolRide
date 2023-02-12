@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const Header = () => {
@@ -20,10 +21,15 @@ const Header = () => {
         transition={{
           duration: 1.5,
         }}
-        className='mx-auto p-5'
+        className='flex flex-row mx-auto items-center text-center p-3'
         >
         <Link href='#profile'>
-        <h1 className=' text-xl font-bold'>Cool Ride</h1>
+        <Image
+          src='/hello.png'
+          alt='/'
+          width={140}
+          height={140}
+        />
         </Link>
       </motion.div>
 
@@ -41,7 +47,7 @@ const Header = () => {
        transition={{
         duration: 1.5,
        }}
-      className='flex flex-row mx-auto p-5 text-lg'>
+      className='flex flex-row mx-auto px-5 py-3 text-lg'>
         <Link href='#about'>
         <h3 className='py-2 px-4 text-md'>CoolRide</h3>
         </Link>
@@ -54,7 +60,7 @@ const Header = () => {
         <Link href='#team'>
         <h3 className='py-2 px-4 text-md'>Team</h3>
         </Link>
-        <Link href=''>
+        <Link href='#contact'>
         <h3 className='py-2 px-4 text-md'>Contact</h3>
         </Link>
         <Link href=''>

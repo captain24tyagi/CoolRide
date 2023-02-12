@@ -6,6 +6,8 @@ import About from '@/components/About'
 import CoolRide from '@/components/CoolRide'
 import Base from '@/components/base'
 import Team from '@/components/Team'
+import { Scan } from '@/components/Scan'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -35,8 +37,16 @@ export default function Home() {
        <Base/>
       </section>
 
+      <section id='scan' className='snap-center'>
+       <Scan/>
+      </section>
+
       <section id='team' className='snap-center'>
        <Team/>
+      </section>
+
+      <section id='contact' className='snap-center'>
+       <Contact/>
       </section>
       
     </div>

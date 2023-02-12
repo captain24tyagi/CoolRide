@@ -6,6 +6,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import QrCodeScannerOutlinedIcon from '@mui/icons-material/QrCodeScannerOutlined';
 import ElectricScooterOutlinedIcon from '@mui/icons-material/ElectricScooterOutlined';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -73,8 +74,9 @@ const About = () => {
             </p>
            </div>
           </div>
-
-          <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
+         
+         <Link href='#scan'>
+         <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black  hover:text-[#32CC8B]'>
           <QrCodeScannerOutlinedIcon className='text-3xl mx-auto mr-5' />
            <div>
              <h3 className='text-md font-bold'>
@@ -85,6 +87,7 @@ const About = () => {
             </p>
            </div>
           </div>
+         </Link>
 
           <div className='p-5 w-[500px] flex flex-row items-center hover:shadow hover:shadow-black hover:text-[#32CC8B]'>
           <ElectricScooterOutlinedIcon className='text-3xl mx-auto mr-5' />
