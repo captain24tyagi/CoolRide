@@ -36,7 +36,7 @@ const Profile = () => {
       </span>
       <Cursor cursorColor="#FB923C"/>
       </h1>
-      <p className='px-20 text-lg max-w-fit mx-auto'>Cool_Ride is a big initiative in making the planet greener as the trend of e-scooters, i.e., electric scooters (no usage of petrol, diesel here) makes the economy of ride-sharing greener and economical. Cool_Ride allows people to find and commute with an e-bike easily and this is a big shift towards sustainability. And this e-bike sharing concept very well suits sustainable lifestyle and this makes more and more people more towards it and resultantly opening a big business opportunity for the entrepreneurs.
+      <p className='px-20 text-lg max-w-fit mx-auto'>Cool_Ride is a big initiative in making the planet greener as the trend of e-scooters, i.e., electric scooters (no usage of petrol, diesel here) makes the economy of ride-sharing greener and economical. Cool_Ride allows people to find and commute with an e-bike easily and this is a big shift towards sustainability. This e-bike sharing concept very well suits sustainable lifestyle and makes more and more people move towards it. It is resultantly opening a big business opportunity for the entrepreneurs.
 </p>
     </motion.div>
      <motion.img 

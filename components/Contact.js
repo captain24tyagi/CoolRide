@@ -15,8 +15,7 @@ const Contact = () => {
     const { register, handleSubmit, watch, formState: { errors }, } = useForm();
 
     const onSubmit = (data) => {
-        console.log(data)
-        window.location.href = `mailto:sarthak2002tyagi@gmail.com?subject=${data.subject}&body=Hi, my name is ${data.name}. ${data.message}.&mailfrom=${data.email}`
+        window.location.href = `mailto:coolride613@gmail.com?subject=${data.subject}&body=Hi, my name is ${data.name}. ${data.message}.&mailfrom=${data.email}`
     }
 
   return (
