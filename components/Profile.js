@@ -15,7 +15,7 @@ const Profile = () => {
     delaySpeed: 2000,
   })
   return (
-    <div className="h-screen text-left text-white mx-auto justify-between items-center max-w-7xl lg:flex flex-row">
+    <div className="h-screen text-left text-white mx-auto justify-between items-center max-w-7xl pb-10 lg:flex flex-row">
       <motion.div
         initial={{
           x: -500,
