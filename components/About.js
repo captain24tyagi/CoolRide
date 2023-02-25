@@ -26,7 +26,7 @@ const About = () => {
           transition={{
             duration: 1.5,
           }}
-          className="rounded-lg mx-auto mt-[200px] pt-20 md:mt-10"
+          className="rounded-lg mx-auto mt-[200px] pt-10 md:mt-10"
           src="https://www.joyebike.com/product/glob-bike/assets/img/slider.png"
           height={300}
           width={600}

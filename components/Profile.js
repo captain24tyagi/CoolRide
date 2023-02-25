@@ -15,7 +15,7 @@ const Profile = () => {
     delaySpeed: 2000,
   })
   return (
-    <div className="h-screen text-left text-white mx-auto justify-between items-center max-w-7xl pb-10 lg:flex flex-row">
+    <div className="h-screen text-left text-white mx-auto justify-between items-center max-w-7xl pb-20 lg:flex flex-row">
       <motion.div
         initial={{
           x: -500,
@@ -51,7 +51,7 @@ const Profile = () => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 1 }}
         viewport={{ once: true }}
-        className="rounded-xl border border-black border-double md:mx-20 shadow-2xl shadow-black mx-auto mt-5 mb-20 md:mt-0"
+        className="rounded-xl border border-black border-double md:mx-20 shadow-2xl shadow-black pb-8 mx-auto mt-5 mb-20 md:mt-0"
         src="/Phone5.png"
         alt="/"
         height={220}
