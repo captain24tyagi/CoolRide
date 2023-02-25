@@ -11,7 +11,7 @@ import Link from "next/link"
 const About = () => {
   return (
     <div className="md:h-screen mx-auto z-20 justify-between items-center max-w-7xl md:py-10 text-white lg:flex flex-row lg:mb-20 overflow-hidden">
-      <div className="lg:flex flex-row max-w-fit items-center mt-5 md:pb-20">
+      <div className="lg:flex flex-row max-w-fit items-center mt-10 md:pb-20">
         <motion.img
           initial={{
             x: -500,
@@ -26,7 +26,7 @@ const About = () => {
           transition={{
             duration: 1.5,
           }}
-          className="rounded-lg mx-auto mt-[200px] pt-10 md:mt-10"
+          className="rounded-lg mx-auto mt-[200px] pt-20 md:mt-10"
           src="https://www.joyebike.com/product/glob-bike/assets/img/slider.png"
           height={300}
           width={600}
