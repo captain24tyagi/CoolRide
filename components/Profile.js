@@ -51,11 +51,11 @@ const Profile = () => {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 1 }}
         viewport={{ once: true }}
-        className="rounded-xl border border-black border-double md:mx-20 shadow-2xl shadow-black pb-8 mx-auto mt-5 mb-20 md:mt-0"
+        className="rounded-xl border border-black border-double md:mx-20 shadow-2xl shadow-black mx-auto mt-5 mb-20 md:mt-0"
         src="/Phone5.png"
         alt="/"
-        height={220}
-        width={220}
+        height={180}
+        width={180}
       />
     </div>
   )
