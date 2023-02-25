@@ -68,7 +68,7 @@ function Team() {
                 width={100}
                 height={100}
               />
-              <div className="flex flex-col text-left m-10">
+              <div className="flex flex-col text-left md:m-10">
                 <h1 className="px-5 text-xl font-bold">Sarthak Tyagi</h1>
                 <p className="px-5 text-lg text-[#32CC8B]">Technical Head, CoolRide</p>
                 <p className="px-5 text-lg">B.Tech, Computer Science and Engineering</p>
@@ -134,20 +134,6 @@ function Team() {
           </div>
 
           <div>
-            {/* <div className='flex flex-row p-10 w-full items-center pr-20 mr-10'>
-            <Image
-                className=' object-fill rounded-full h-28 w-28 mx-auto mr-5'
-                src='/WhatsApp Image 2023-01-28 at 11.32.29 AM.jpeg'
-                alt='/'
-                width={100}
-                height={100}
-            />
-            <div className='flex flex-col text-left mr-20'>
-                <h1 className='px-10 text-xl font-bold'>Anurag Jain </h1>
-                <p className='px-10 text-lg'></p> 
-                <p className='px-10 text-lg'>B.Tech Computer Science and Engineering</p>
-            </div>
-          </div> */}
           </div>
         </div>
       </motion.div>
