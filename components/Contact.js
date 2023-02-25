@@ -23,8 +23,8 @@ const Contact = () => {
     }
 
   return (
-    <div className="h-screen justify-between items-center mx-auto w-fit mt-20 top-10 max-w-7xl pt-10">
-      <h1 className="mt-20 mx-auto font-bold text-2xl top-10 mb-0 text-center text-[#32CC8B]">
+    <div className="h-screen justify-between items-center mx-auto w-fit mt-20 top-20 max-w-7xl pt-20 pb-20">
+      <h1 className="mt-20 mx-auto font-bold text-2xl top-20 mb-0 text-center text-[#32CC8B] pt-10">
         Contact
       </h1>
 
