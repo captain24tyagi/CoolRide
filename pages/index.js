@@ -8,6 +8,7 @@ import Base from "@/components/Base"
 import Team from "@/components/Team"
 import { Scan } from "@/components/Scan"
 import Contact from "@/components/Contact"
+import Test from "@/components/Test"
 
 export default function Home() {
   return (
@@ -39,6 +40,10 @@ export default function Home() {
 
       <section id="scan" className="snap-center overflow-hidden">
         <Scan />
+      </section>
+
+      <section id="test" className="snap-center overflow-hidden">
+        <Test />
       </section>
 
       <section id="team" className="snap-center">
