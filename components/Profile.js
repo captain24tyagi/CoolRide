@@ -9,7 +9,7 @@ const Profile = () => {
     words: [
       "Lets Ride Eco-friendly !!",
       "Providing ease of transportation !!",
-      "Cheapest of all !!",
+      "Cheapest of all !!!",
     ],
     loop: true,
     delaySpeed: 2000,
