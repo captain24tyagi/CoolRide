@@ -33,7 +33,7 @@ const Contact = () => {
           <LocationOnOutlinedIcon className="text-3xl" />
           <h2 className="px-5 text-md font-bold text-[#32CC8B]">Address: </h2>
           <p className=" text-sm font-bold">
-            Cool Ride, Homefinders Estate, Ramapuram, Chennai- 600089
+            Cool Ride, Essen House, Stanza Living, Chennai- 600089
           </p>
         </div>
         <div className="flex flex-row mx-10 items-center">
